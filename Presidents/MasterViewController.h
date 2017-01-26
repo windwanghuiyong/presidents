@@ -10,9 +10,9 @@
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController				//根控制器, 用于创建包含应用导航的表视图
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) DetailViewController *detailViewController;	// 子控制器
 
 
 @end

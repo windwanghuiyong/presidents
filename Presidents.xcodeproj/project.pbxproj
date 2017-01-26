@@ -14,6 +14,8 @@
 		0C26E17E1E39BF8E009639B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C26E17C1E39BF8E009639B0 /* Main.storyboard */; };
 		0C26E1801E39BF8E009639B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C26E17F1E39BF8E009639B0 /* Assets.xcassets */; };
 		0C26E1831E39BF8E009639B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C26E1811E39BF8E009639B0 /* LaunchScreen.storyboard */; };
+		0C26E18B1E3A05B5009639B0 /* PresidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C26E18A1E3A05B5009639B0 /* PresidentList.plist */; };
+		0C26E1911E3A166F009639B0 /* LanguageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C26E1901E3A166F009639B0 /* LanguageListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		0C26E17F1E39BF8E009639B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C26E1821E39BF8E009639B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C26E1841E39BF8E009639B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C26E18A1E3A05B5009639B0 /* PresidentList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PresidentList.plist; sourceTree = "<group>"; };
+		0C26E18F1E3A166F009639B0 /* LanguageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LanguageListController.h; path = ../LanguageListController.h; sourceTree = "<group>"; };
+		0C26E1901E3A166F009639B0 /* LanguageListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LanguageListController.m; path = ../LanguageListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +70,14 @@
 				0C26E1741E39BF8E009639B0 /* AppDelegate.m */,
 				0C26E1761E39BF8E009639B0 /* MasterViewController.h */,
 				0C26E1771E39BF8E009639B0 /* MasterViewController.m */,
+				0C26E18F1E3A166F009639B0 /* LanguageListController.h */,
+				0C26E1901E3A166F009639B0 /* LanguageListController.m */,
 				0C26E1791E39BF8E009639B0 /* DetailViewController.h */,
 				0C26E17A1E39BF8E009639B0 /* DetailViewController.m */,
 				0C26E17C1E39BF8E009639B0 /* Main.storyboard */,
 				0C26E17F1E39BF8E009639B0 /* Assets.xcassets */,
 				0C26E1811E39BF8E009639B0 /* LaunchScreen.storyboard */,
+				0C26E18A1E3A05B5009639B0 /* PresidentList.plist */,
 				0C26E1841E39BF8E009639B0 /* Info.plist */,
 				0C26E1701E39BF8E009639B0 /* Supporting Files */,
 			);
@@ -146,6 +154,7 @@
 				0C26E1831E39BF8E009639B0 /* LaunchScreen.storyboard in Resources */,
 				0C26E1801E39BF8E009639B0 /* Assets.xcassets in Resources */,
 				0C26E17E1E39BF8E009639B0 /* Main.storyboard in Resources */,
+				0C26E18B1E3A05B5009639B0 /* PresidentList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +168,7 @@
 				0C26E1751E39BF8E009639B0 /* AppDelegate.m in Sources */,
 				0C26E1781E39BF8E009639B0 /* MasterViewController.m in Sources */,
 				0C26E1721E39BF8E009639B0 /* main.m in Sources */,
+				0C26E1911E3A166F009639B0 /* LanguageListController.m in Sources */,
 				0C26E17B1E39BF8E009639B0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
